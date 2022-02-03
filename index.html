@@ -32,7 +32,7 @@
               #flinstones {
             font-family:sans-serif;
         }
-            
+
         #jetsons {
             font-family:serif;
              font-size:50px;
@@ -47,6 +47,49 @@
         body{
             font-family: 'Courier New', Courier, monospace;
         }
+        .blabla{
+            background-color:green;
+        }
+        .pic{
+             width:40%;
+                height:200px;
+                overflow:auto;
+                border:3px solid yellow;
+                margin:2px;
+                   position:absolute;
+                top:3%;
+                left:5%;
+                z-index:1;
+                float:right;
+                width:20%;
+                margin:20px;
+        }
+        
+        
+ .image-small {
+                width: 150px;
+            }
+            .image-medium {
+                width: 200px;
+            }
+            .black-frame {
+                border: 8px double rgb(38, 38, 38);
+            }
+            .gold-frame {
+                border: 10px ridge rgb(255, 183, 0);
+            }
+            .silver-frame {
+                border: 10px groove rgb(204, 204, 204);
+            }
+              h1,h2 {
+                font-family: fantasy;
+                border-bottom: 1px solid rgb(230, 230, 230);
+                padding: 3px;
+            }
+            
+            h1:hover,h2:hover {
+                background-color: rgb(248, 255, 199);
+            }
     </style>
     <title>Document</title>
 </head>
@@ -55,10 +98,11 @@
 
     <h2>Lorem, ipsum.</h2>
 
-    <p><br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</br> Voluptatum perferendis quasi est ea culpa saepe, <br>distinctio, ipsum pariatur ratione minima ut vitae aperiam impedit amet atque natus, dolorem laborum! Ab!</br></p>
+    <div class='blabla'><p><br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</br> Voluptatum perferendis quasi est ea culpa saepe, <br>distinctio, ipsum pariatur ratione minima ut vitae aperiam impedit amet atque natus, dolorem laborum! Ab!</br></p>
     <h2>Lorem ipsum dolor sit amet.</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit corporis ullam nisi minus itaque fugiat facilis velit accusamus, expedita aut obcaecati hic, temporibus dignissimos suscipit! Quia pariatur cupiditate consectetur consequatur.</p>
 <p>
+</div>
     Nobody’s born smart. <em>We all start at 0</em>. <strong>Can’t talk, can’t walk, certainly</strong> can’t do
     algebra.<br>
     Adding, reading, writing, riding a bike. Nobody’s good at anything at first.<br>
@@ -73,7 +117,7 @@
     <li>sdjgfskjdgf</li>
     <li>sdjgfskjdgf</li>
     <li>sdjgfskjdgf</li>
-</ol><img src='https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/leaf-red.png' alt='1'
+</ol><img class='pic' src='https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/leaf-red.png' alt='1'
     width='100' height='100px'>
 <p>And animals like...</p>
 <img src='https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/leafers-sapling.png'
@@ -184,5 +228,10 @@
         They're all together ooky,<br>
         the Addams Family
     </p>
+    <img class='black-frame image-small' src="https://www.kasandbox.org/programming-images/animals/cat.png">
+    
+    <img class='gold-frame image-medium' src="https://www.kasandbox.org/programming-images/animals/fox.png">
+    
+    <img class='silver-frame image-medium ' src="https://www.kasandbox.org/programming-images/animals/penguins.png">
 </body>
 </html>
